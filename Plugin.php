@@ -31,15 +31,15 @@ class Plugin implements PluginInterface
     const CDN_SOURCES = [
         'jsdelivr' => [
             'name' => 'jsDelivr (推荐)',
-            'mermaid' => 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js'
+            'mermaid' => 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js'
         ],
         'unpkg' => [
             'name' => 'UNPKG',
-            'mermaid' => 'https://unpkg.com/mermaid@10/dist/mermaid.min.js'
+            'mermaid' => 'https://unpkg.com/mermaid@11/dist/mermaid.min.js'
         ],
         'china' => [
             'name' => '国内镜像 (BootCDN)',
-            'mermaid' => 'https://cdn.bootcdn.net/ajax/libs/mermaid/10.7.0/mermaid.min.js'
+            'mermaid' => 'https://cdn.bootcdn.net/ajax/libs/mermaid/11.10.1/mermaid.min.js'
         ]
     ];
     
@@ -705,4 +705,5 @@ class Plugin implements PluginInterface
         
         return false;
     }
+
 }
